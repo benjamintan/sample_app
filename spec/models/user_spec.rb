@@ -132,7 +132,7 @@ describe User do
       end
     end
     
-    decribe "authenticate method" do
+    describe "authenticate method" do
       
       it "should exist" do
         User.should respond_to(:authenticate)
