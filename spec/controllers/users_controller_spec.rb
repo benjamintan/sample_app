@@ -94,6 +94,10 @@ describe UsersController do
         flash[:success].should =~ /welcome to the sample app/i
       end
       
+      it "should sign the user in" do
+        
+      end
+      
     end
   end  
 end
